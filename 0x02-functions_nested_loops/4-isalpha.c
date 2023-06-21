@@ -5,6 +5,8 @@
  * both lowercase or uppercase
  *
  * @c: 1 is c if true else 0
+ *
+ * Return: 1 for letters, 0 for the rest.
 */
 
 int _isalpha(int c)
