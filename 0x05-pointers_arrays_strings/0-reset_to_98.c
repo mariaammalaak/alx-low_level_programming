@@ -2,11 +2,11 @@
 
 /**
  * reset_to_90 - takes a pointer to an int parameter
- * and update the value it point to 98
+ * and updates the value it point to 98
  *
  * @n: int parameter
  *
- * Return: Nothing
+ * Return: n
 */
 
 void reset_to_98(int *n)
