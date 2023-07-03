@@ -5,7 +5,7 @@
  * @s: string
  * @accept: string to match
  * Return: pointer to the byte in s that matches one of the bytes in accept
- * or NULl if no such byte is found
+ * or NULl if no such byte is found.
 */
 
 char *_strpbrk(char *s, char *accept)
@@ -19,7 +19,7 @@ char *_strpbrk(char *s, char *accept)
 		jtr = 0;
 		while (accept[jtr] != '\0')
 		{
-			if (accept[jtr] != '\0')
+			if (accept[jtr] == s[itr])
 			{
 				p = &s[itr];
 				return (p);
