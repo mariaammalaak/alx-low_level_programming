@@ -1,8 +1,9 @@
 #include "3-calc.h"
 
 /**
- * main - check the code for The schoo; students.
+ * main - check the code for The school students.
  * @argc: the number of args
+ * @argv: argument vector
  *
  * Return: Always 0.
 */
